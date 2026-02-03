@@ -1,0 +1,11 @@
+name: MCP Server - Amap Maps
+version: 0.0.1
+schema: v1
+mcpServers:
+  - name: amap-maps
+    command: npx
+    args:
+      - -y
+      - "@amap/amap-maps-mcp-server"
+    env:
+      AMAP_MAPS_API_KEY: "2a437d16f5685de684c19449772e1c21"
